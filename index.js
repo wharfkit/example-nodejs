@@ -15,12 +15,15 @@ const permissionName = 'test'
 // The private key for the permission on the account
 const privateKey = '5Jtoxgny5tT7NiNFp1MLogviuPJ9NniWjnU4wKzaX4t7pL4kJ8s'
 
+// A wallet plugin instance that will sign transactions with the private key
+const walletPlugin = new WalletPluginPrivateKey(privateKey)
+
 // Establish the session with all of the above parameters
 const session = new Session({
     actor: accountName,
     permission: permissionName,
     chain,
-    walletPlugin: new WalletPluginPrivateKey(privateKey),
+    walletPlugin,
 })
 
 // The action to send, a small token transfer in this example
