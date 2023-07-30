@@ -1,0 +1,13 @@
+{
+  "name": "@wharfkit/example-nodejs",
+  "version": "1.0.0",
+  "description": "An example using the @wharfkit/session library in a nodejs application",
+  "main": "index.js",
+  "repository": "https://github.com/wharfkit/example-nodejs",
+  "author": "Aaron Cox <aaron@greymass.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wharfkit/session": "^0.5.1",
+    "@wharfkit/wallet-plugin-privatekey": "^0.5.0"
+  }
+}
