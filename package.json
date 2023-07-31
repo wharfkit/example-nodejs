@@ -7,7 +7,7 @@
   "author": "Aaron Cox <aaron@greymass.com>",
   "license": "MIT",
   "dependencies": {
-    "@wharfkit/session": "^0.5.1",
-    "@wharfkit/wallet-plugin-privatekey": "^0.5.0"
+    "@wharfkit/session": "^1.0.0",
+    "@wharfkit/wallet-plugin-privatekey": "^1.0.0"
   }
 }
